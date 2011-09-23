@@ -1,36 +1,10 @@
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.vi
-*~
-
-# OS or Editor folders
+# Si vous utilisez un Mac
 .DS_Store
-.cache
-.project
-.settings
-nbproject
-thumbs.db
 
-# Dreamweaver added files
-_notes
-dwsync.xml
+# Pour votre dossier de brouillons
+_drafts
 
-# Komodo
-*.komodoproject
-.komodotools
+# Pour votre site généré en local
+_site
 
-# Folders to ignore
-.hg
-.svn
-publish
-.idea
 
-# build script local files
-build/buildinfo.properties
-build/config/buildinfo.properties
