@@ -33,11 +33,17 @@
   
 	<header>
 		{% if page.title %}
-			<a class="site_title" href="/" title="{{ site.title }}">{{ site.title }}</a>
+    <h1><a class="site_title" href="/" title="{{ site.title }}">{{ site.title }}</a></h1>
 		{% else %}
 			<h1 class="site_title"><a href="/" title="{{ site.title }}">{{ site.title }}</a></h1>
     {% endif %}
-    
+    <nav>
+      <span>
+        <a href="/about">about/</a>
+        <br />
+        <a href="/blog">blog/</a>
+      </span>
+    </nav>
 	</header>
 
 	<section>
