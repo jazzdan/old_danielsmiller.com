@@ -30,21 +30,22 @@
 </head>
 <body>
 <div class="container">
-
+  
 	<header>
 		{% if page.title %}
 			<a class="site_title" href="/" title="{{ site.title }}">{{ site.title }}</a>
 		{% else %}
 			<h1 class="site_title"><a href="/" title="{{ site.title }}">{{ site.title }}</a></h1>
-		{% endif %}
+    {% endif %}
+    
 	</header>
 
 	<section>
 		{{ content }}
 	</section>
 	
-	<footer>
-		<p>&copy; 2011 <a href="/">{{ site.title }}</a></p>
+  <footer>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
 	</footer>
 	
 </div>
