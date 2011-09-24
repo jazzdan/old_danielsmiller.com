@@ -1,19 +1,10 @@
 ---
 layout: layout
 ---
-
-{% for post in site.posts limit:10 %}
-
-	<article class="homelist">
-		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-		
-		{{ post.content | truncatewords: 50 | textilize }}
-		
-		<aside class="seemore">
-			<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d/%m/%Y" }}</time>, {{ post.categories | category_links }} | 
-			<a rel="nofollow" href="{{ post.url }}">Read &raquo;</a>
-		</aside>
-	
-	</article>
-
-{% endfor %}
+<div id='main'>
+  <br/>
+  <h2>Hi!</h2>
+  <p>Dan Miller here. I am a student at <a href="http://www.marist.edu">Marist College</a> studying Computer Science and Information Technology. I <a href="/blog">blog</a> infrequently, <a href="http://twitter.com/jazzdan">tweet</a> slightly more, but I hang around on <a href="https://plus.google.com/105380111732815377106/">Google+</a> the most.</p><br/>
+  <p>I am currently employed part time at the Marist College IT Department where I develop internal applications, but I am also engaged in some of my own <a href="https://github.com/jazzdan">projects</a>.</p><br/>
+  <p>Here's my formal <a href="/danmiller-resume.pdf">resume</a>. Feel free to contact me if you want to chat, <a href ="mailto:dan@danielsmiller.com">email</a>'s usually the best way.</p>
+</div>

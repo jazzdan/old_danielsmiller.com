@@ -2,7 +2,7 @@
 # Jekyll configuration
 #
 auto: true
-permalink: /:title
+permalink: /blog/:title
 pygments: true
 lsi: true
 markdown: rdiscount
